@@ -1,0 +1,66 @@
+.pallet {
+    color: #b888f8;
+}
+#colors .pallet {
+    background-color: #b888f8;
+}
+
+.viridian {
+    color: #7ff71f;
+}
+#colors .viridian {
+    background-color: #7ff71f;
+}
+
+.pewter {
+     color: #909078;
+}
+#colors .pewter {
+    background-color: #909078;
+}
+
+.cerulean {
+    color: #2840f8;
+}
+#colors .cerulean {
+    background-color: #2840f8;
+}
+.vermillion {
+    color: #f89800;
+}
+#colors .vermillion {
+    background-color: #f89800;
+}
+.lavender {
+    color: #c820f8;
+}
+#colors .lavender {
+    background-color: #c820f8;
+}
+.celadon {
+    color: #28f828;
+}
+#colors .celadon {
+    background-color: #28f828;
+}
+.saffron {
+    color: #f8f800;
+}
+#colors .saffron {
+    background-color: #f8f800;
+}
+.fuschia {
+    color: #f87878;
+}
+#colors .fuschia {
+    background-color: #f87878;
+}
+.cinnabar {
+    color: #f84040;
+}
+#colors .cinnabar {
+    background-color: #f84040;
+}
+.house {
+    font-size: 200px;
+}
