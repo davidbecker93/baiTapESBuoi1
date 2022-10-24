@@ -40,6 +40,7 @@ let diemTB = (param) => {
             hienThiDiemTB('#tbKhoi1', 'Nhập thiếu điểm')
             break;
     }
+    return TB;
 };
 
 let hienThiDiemTB = (element, value) => {
