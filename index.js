@@ -15,7 +15,7 @@ let renderButtons = () => {
     for (let i = 0; i < arrColors.length; i++) {
         let color = arrColors[i];
         content += `
-        <button class="color-button ${color} text-dark mx-2" onclick="changeColor('${color}')">${color}</button>
+        <button class="btn ${color} text-light mx-2" onclick="changeColor('${color}')">${color}</button>
         `;
     }
     document.getElementById("colors").innerHTML = content;
@@ -68,3 +68,17 @@ document.querySelector('#btnKhoi2').onclick = function () {
     }
     diemTB(arrDiem);
 };
+//-------------------------
+(() => {
+    const e = document.querySelector('.heading')
+    let str = e.textContent;
+    let chars = [...str];
+    console.log(chars);
+    let text = '';
+    for (let i in chars) {
+        text += `
+    <span>${chars[i]}</span>
+    `
+    }
+    e.innerHTML = text;
+})();
