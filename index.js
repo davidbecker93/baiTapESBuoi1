@@ -24,7 +24,7 @@ window.changeColor = (color) => {
     document.getElementById('home').classList = "house " + color;
 };
 renderButtons();
-//------------------------------------
+//---------------BÀI TẬP TÍNH ĐIỂM TRUNG BÌNH---------------------
 let diemTB = (param) => {
     let TB = 0;
     switch (param.length) {
@@ -68,7 +68,7 @@ document.querySelector('#btnKhoi2').onclick = function () {
     }
     diemTB(arrDiem);
 };
-//-------------------------
+//----------------HOVER ME----------------------
 (() => {
     const e = document.querySelector('.heading')
     let str = e.textContent;
